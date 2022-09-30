@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 726px) {
+  .container {
+    width: 95%;
+  }
+}

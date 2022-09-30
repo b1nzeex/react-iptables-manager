@@ -1,0 +1,77 @@
+.card {
+  background-color: lavender;
+  margin: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    margin: 20px 0;
+    width: 100%;
+  }
+}
+
+.cardHeader {
+  background-color: #222;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px;
+  border-radius: 10px 10px 0 0;
+}
+
+.cardBody {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btnSuccess {
+  font-weight: bold;
+  border: 1px solid #27ae60;
+  background-color: #2ecc71;
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btnSuccess:hover,
+.btnSuccess:active {
+  background-color: #27ae60;
+}
+
+.btnDanger {
+  font-weight: bold;
+  border: 1px solid #c0392b;
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btnDanger:hover,
+.btnDanger:active {
+  background-color: #c0392b;
+}
+
+.label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  position: relative;
+  left: 5px;
+  margin-bottom: 2px;
+}

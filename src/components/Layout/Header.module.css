@@ -1,0 +1,11 @@
+.navigation {
+  background-color: #222;
+  color: white;
+}
+
+.branding {
+  position: relative;
+  left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 0;
+}
