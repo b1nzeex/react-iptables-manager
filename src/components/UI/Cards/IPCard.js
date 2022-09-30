@@ -22,6 +22,7 @@ const IPCard = () => {
           <button className={classes.btnSuccess}>ALLOW</button>
           <button className={classes.btnDanger}>DROP</button>
           <button className={classes.btnDanger}>REJECT</button>
+          <button className={classes.btnDanger}>DEL</button>
         </div>
       </div>
     </div>

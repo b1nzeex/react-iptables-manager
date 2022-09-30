@@ -82,6 +82,12 @@
   background-color: #0984e3;
 }
 
+.btnDanger:disabled,
+.btnSuccess:disabled,
+.btnPrimary:disabled {
+  cursor: not-allowed;
+}
+
 .label {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9em;
